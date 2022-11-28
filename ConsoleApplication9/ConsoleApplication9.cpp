@@ -2,6 +2,7 @@
 #include <windows.h>
 #include <iomanip>
 #include <ctime>
+#include "Header.h"
 
 using namespace std;
 
@@ -73,4 +74,5 @@ int main()
 		cout << "Max or min: " << MaxElem(arr, max, s) << endl;
 	else
 		cout << "Invalid number." << endl;
+	helloworld();
 }
