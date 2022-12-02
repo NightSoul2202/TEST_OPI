@@ -62,12 +62,15 @@ int MaxElem(int a[10][10], int max[10], int method = 1)
 
 int main()
 {
+	
 	srand(time(NULL));
     int arr[10][10];
 	int max[10];
+	cout << "Array A;" << endl;
 	Array2D(arr);
 	Print2D(arr);
 	int s;
+	cout << "\t\tMenu" << endl;
 	cout << "Enter 1 for max elem or 0 for minimum" << endl;
 	cin >> s;
 	if (s == 0 || s == 1)
