@@ -62,7 +62,7 @@ int MaxElem(int a[10][10], int max[10], int method = 1)
 
 int main()
 {
-	
+	cout << "hello";
 	srand(time(NULL));
     int arr[10][10];
 	int max[10];
